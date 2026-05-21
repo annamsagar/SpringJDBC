@@ -1,5 +1,5 @@
-insert into student values(102,'kullaiah appa',97);
-insert into student values(103,'sasindhar',95);
-insert into student values(104,'sri ram',99);
-
-
+-- insert into student values(102,'kullaiah appa',97);
+-- insert into student values(103,'sasindhar',95);
+-- insert into student values(104,'sri ram',99);
+--
+--
