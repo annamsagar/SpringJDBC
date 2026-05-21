@@ -22,7 +22,8 @@ public class JdbcExApplication {
 		StudentService service=(StudentService)context.getBean("studentService");
 		service.addstudent(s1);
 
-		List<Student> list= StudentRepo.findAll();
+		StudentRepo repo=(StudentRepo)context.getBean("studentRepo");
+		List<Student> list= repo.findAll();
 		System.out.println(list);
 
 	}
